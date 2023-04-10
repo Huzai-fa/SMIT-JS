@@ -114,14 +114,4 @@
 //   var myObj = { name: 'SYED HUZAIFA ALI', age: 18 };
 //   var newObj = saveObjectPropertiesToLocalStorage(myObj);
 //   console.log(newObj)
-    
-for (var i = 1; i <= 50; i++) {
-    if(i%2==0)
-    {
-        document.write(i,"even number<br>");
-    }
-    else
-    document.write(i,"odd number<br>");
-    
-  }
   
