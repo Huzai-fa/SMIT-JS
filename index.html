@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Recommendation App</h1>
+      <div class="filter-container">
+        <label for="genre">Genre:</label>
+        <select id="genre">
+          <option value="All">All</option>
+          <option value="comedy">Comedy</option>
+          <option value="action">Action</option>
+          <option value="drama">Drama</option>
+          <option value="horror">Horror</option>
+        </select>
+
+        <label for="rating">Rating:</label>
+        <select id="rating">
+          <option value="All">All</option>
+          <option value="7">7+</option>
+          <option value="8">8+</option>
+          <option value="9">9+</option>
+        </select>
+
+        <label for="year">Year:</label>
+        <select id="year">
+          <option value="All">All</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+        </select>
+
+        <button id="recommendation-button">Get Recommendations</button>
+      </div>
+
+      <div id="movie-list">
+        
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
